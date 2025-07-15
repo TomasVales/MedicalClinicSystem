@@ -26,7 +26,7 @@ namespace Vistas
                 if (Session["usuario"] != null)
                 {
                     Usuario usuario = (Usuario)Session["usuario"];
-                    Label1.Text = "Bienvenido, " + usuario.NombreUsuario;
+                    lblMensaje.Text = "Bienvenido, " + usuario.NombreUsuario;
                 }
             }
         }

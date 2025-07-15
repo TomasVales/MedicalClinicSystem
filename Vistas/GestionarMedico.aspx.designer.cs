@@ -24,13 +24,22 @@ namespace Vistas
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label1 control.
+        /// lblMensaje control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lblMensaje;
+
+        /// <summary>
+        /// lblLegajo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblLegajo;
 
         /// <summary>
         /// txtLegajo control.
@@ -51,6 +60,15 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV1;
 
         /// <summary>
+        /// lblDNI control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDNI;
+
+        /// <summary>
         /// txtDNI control.
         /// </summary>
         /// <remarks>
@@ -67,6 +85,15 @@ namespace Vistas
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV2;
+
+        /// <summary>
+        /// lblNombre control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblNombre;
 
         /// <summary>
         /// txtNombre control.
@@ -87,6 +114,15 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV3;
 
         /// <summary>
+        /// lblApellido control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblApellido;
+
+        /// <summary>
         /// txtApellido control.
         /// </summary>
         /// <remarks>
@@ -103,6 +139,15 @@ namespace Vistas
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV4;
+
+        /// <summary>
+        /// lblSexo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSexo;
 
         /// <summary>
         /// ddlSexo control.
@@ -123,6 +168,15 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV5;
 
         /// <summary>
+        /// lblNacionalidad control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblNacionalidad;
+
+        /// <summary>
         /// txtNacionalidad control.
         /// </summary>
         /// <remarks>
@@ -139,6 +193,15 @@ namespace Vistas
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV6;
+
+        /// <summary>
+        /// lblFechaNacimiento control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFechaNacimiento;
 
         /// <summary>
         /// txtFechaNacimiento control.
@@ -159,6 +222,15 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV7;
 
         /// <summary>
+        /// lblDireccion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDireccion;
+
+        /// <summary>
         /// txtDireccion control.
         /// </summary>
         /// <remarks>
@@ -175,6 +247,15 @@ namespace Vistas
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV8;
+
+        /// <summary>
+        /// lblProvincia control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblProvincia;
 
         /// <summary>
         /// ddlProvincia control.
@@ -195,6 +276,15 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV9;
 
         /// <summary>
+        /// lblLocalidad control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblLocalidad;
+
+        /// <summary>
         /// ddlLocalidad control.
         /// </summary>
         /// <remarks>
@@ -211,6 +301,15 @@ namespace Vistas
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV10;
+
+        /// <summary>
+        /// lblEspecialidad control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblEspecialidad;
 
         /// <summary>
         /// ddlEspecialidad control.
@@ -231,6 +330,15 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV11;
 
         /// <summary>
+        /// lblDiasAtencion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDiasAtencion;
+
+        /// <summary>
         /// DdlAtencionDias control.
         /// </summary>
         /// <remarks>
@@ -249,6 +357,15 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV12;
 
         /// <summary>
+        /// lblHorarioAtencion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblHorarioAtencion;
+
+        /// <summary>
         /// ddlHora control.
         /// </summary>
         /// <remarks>
@@ -256,6 +373,24 @@ namespace Vistas
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlHora;
+
+        /// <summary>
+        /// RFV13 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV13;
+
+        /// <summary>
+        /// lblEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblEmail;
 
         /// <summary>
         /// txtEmail control.
@@ -276,6 +411,24 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV14;
 
         /// <summary>
+        /// revEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail;
+
+        /// <summary>
+        /// lblTelefono control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTelefono;
+
+        /// <summary>
         /// txtTelefono control.
         /// </summary>
         /// <remarks>
@@ -294,6 +447,15 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV15;
 
         /// <summary>
+        /// lblUsuario control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblUsuario;
+
+        /// <summary>
         /// txtUsuario control.
         /// </summary>
         /// <remarks>
@@ -310,6 +472,15 @@ namespace Vistas
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV16;
+
+        /// <summary>
+        /// lblContrasena control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblContrasena;
 
         /// <summary>
         /// txtContrasena control.
@@ -357,6 +528,15 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.Button btnLIstar;
 
         /// <summary>
+        /// lblFiltroEspecialidad control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFiltroEspecialidad;
+
+        /// <summary>
         /// ddlFiltroEspecialidad control.
         /// </summary>
         /// <remarks>
@@ -366,6 +546,15 @@ namespace Vistas
         protected global::System.Web.UI.WebControls.DropDownList ddlFiltroEspecialidad;
 
         /// <summary>
+        /// lblFiltroDiasAtencion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFiltroDiasAtencion;
+
+        /// <summary>
         /// txtFiltroDiasAtencion control.
         /// </summary>
         /// <remarks>
@@ -373,6 +562,15 @@ namespace Vistas
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtFiltroDiasAtencion;
+
+        /// <summary>
+        /// lblFiltroProvincia control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFiltroProvincia;
 
         /// <summary>
         /// ddlFiltroProvincia control.
@@ -391,15 +589,6 @@ namespace Vistas
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnFiltrar;
-
-        /// <summary>
-        /// lblMensaje control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMensaje;
 
         /// <summary>
         /// GridMedicos control.

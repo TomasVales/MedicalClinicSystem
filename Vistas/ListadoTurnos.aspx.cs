@@ -10,10 +10,10 @@ namespace Vistas
         {
             if (!IsPostBack)
             {
-                DropDownList1.Items.Clear();
-                DropDownList1.Items.Add("Todos"); 
-                DropDownList1.Items.Add("Presente");
-                DropDownList1.Items.Add("Ausente");
+                ddlEstado.Items.Clear(); // Cambiado
+                ddlEstado.Items.Add("Todos"); // Cambiado
+                ddlEstado.Items.Add("Presente"); // Cambiado
+                ddlEstado.Items.Add("Ausente"); // Cambiado
 
                 CargarTurnos();
                 if (Session["usuario"] != null)
@@ -28,19 +28,19 @@ namespace Vistas
         {
             TurnoNegocio negocio = new TurnoNegocio();
 
-           if (Session["IdMedico"] == null)
-{
-    Response.Redirect("Login.aspx");
-    return;
-}
+            if (Session["IdMedico"] == null)
+            {
+                Response.Redirect("Login.aspx");
+                return;
+            }
 
-int idMedico = Convert.ToInt32(Session["IdMedico"]);
+            int idMedico = Convert.ToInt32(Session["IdMedico"]);
 
             DateTime? fecha = null;
-            if (DateTime.TryParse(TextBox2.Text, out DateTime f))
+            if (DateTime.TryParse(txtFecha.Text, out DateTime f)) // Cambiado de TextBox2 a txtFecha
                 fecha = f;
 
-            string estado = DropDownList1.SelectedValue;
+            string estado = ddlEstado.SelectedValue; // Cambiado de DropDownList1 a ddlEstado
             if (estado == "Todos") estado = null;
 
             GridView1.DataSource = negocio.ListadoTurnos(idMedico, fecha, estado);
@@ -63,6 +63,11 @@ int idMedico = Convert.ToInt32(Session["IdMedico"]);
         {
             GridView1.EditIndex = -1;
             CargarTurnos();
+        }
+
+        protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+        
         }
 
         protected void GridView1_RowEditing(object sender, GridViewEditEventArgs e)
